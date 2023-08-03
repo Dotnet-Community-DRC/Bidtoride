@@ -1,4 +1,3 @@
-using AuctionService.Data.Migrations;
 using AuctionService.Entities;
 using Microsoft.EntityFrameworkCore;
 
