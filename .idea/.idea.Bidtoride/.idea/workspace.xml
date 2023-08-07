@@ -13,13 +13,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SearchService/Controllers/SearchController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchService/Data/DbInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchService/Data/auctions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchService/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SearchService/SearchService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchService/SearchService.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +46,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/AuctionService/Controllers/AuctionsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/85444b87515266794f71448c4f4bd6c1bde1cbd93fe1721b9221ae0dd4ebc93/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -191,7 +194,7 @@
       <workItem from="1691073805087" duration="724000" />
       <workItem from="1691076096809" duration="19445000" />
       <workItem from="1691321868157" duration="332000" />
-      <workItem from="1691322206308" duration="946000" />
+      <workItem from="1691322206308" duration="12175000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <option name="closed" value="true" />
@@ -213,25 +216,6 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="InitialCommit" />
     <option name="LAST_COMMIT_MESSAGE" value="InitialCommit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/SearchService/Controllers/SearchController.cs</url>
-          <line>13</line>
-          <properties documentPath="$PROJECT_DIR$/src/SearchService/Controllers/SearchController.cs" initialLine="13" containingFunctionPresentation="Method 'SearchItems'">
-            <startOffsets>
-              <option value="323" />
-            </startOffsets>
-            <endOffsets>
-              <option value="351" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
