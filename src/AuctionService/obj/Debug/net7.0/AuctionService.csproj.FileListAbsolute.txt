@@ -37,4 +37,10 @@
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/System.CodeDom.dll
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.CopyComplete
-/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/obj/Debug/net7.0/AuctionService.sourcelink.json
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/MassTransit.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/MassTransit.Abstractions.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/MassTransit.RabbitMqTransport.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Contracts.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Contracts.pdb
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/MassTransit.EntityFrameworkCoreIntegration.dll
