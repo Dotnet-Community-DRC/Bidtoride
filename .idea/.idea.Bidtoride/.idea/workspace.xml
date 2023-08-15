@@ -13,27 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Contracts/AuctionCreated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contracts/AuctionDeleted.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contracts/AuctionUpdated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchService/Consumers/AuctionCreatedConsumer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchService/RequestHelpers/MappingProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/Controllers/AuctionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/Controllers/AuctionsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/DTOs/AuctionDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/DTOs/AuctionDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/RequestHelpers/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/RequestHelpers/MappingProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SearchService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchService/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchService/SearchService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchService/SearchService.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +190,7 @@
       <workItem from="1691415236126" duration="5172000" />
       <workItem from="1691757276272" duration="7000" />
       <workItem from="1691757352292" duration="37000" />
+      <workItem from="1691757421263" duration="8118000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <option name="closed" value="true" />
