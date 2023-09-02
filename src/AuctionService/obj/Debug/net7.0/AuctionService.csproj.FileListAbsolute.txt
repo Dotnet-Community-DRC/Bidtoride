@@ -44,3 +44,4 @@
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Contracts.dll
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Contracts.pdb
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/MassTransit.EntityFrameworkCoreIntegration.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/obj/Debug/net7.0/AuctionService.sourcelink.json

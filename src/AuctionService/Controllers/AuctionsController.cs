@@ -87,6 +87,8 @@ public class AuctionsController : ControllerBase
         auction.Item.Mileage = updateAuctionDto.Mileage ?? auction.Item.Mileage;
         auction.Item.Year = updateAuctionDto.Year ?? auction.Item.Year;
 
+        await _publishEndpoint.Publish(_mapper.Map<AuctionUpdated>(auction));
+
         var result = await _context.SaveChangesAsync() > 0;
 
         if (result) return Ok();
@@ -98,10 +100,15 @@ public class AuctionsController : ControllerBase
     public async Task<ActionResult> DeleteAuction(Guid id)
     {
         var auction = await _context.Auctions.FindAsync(id);
+
+        if (auction is null)
+            return NotFound("Could not find action to delete!");
         
         //Todo: check seller  == username
 
-        if (auction != null) _context.Auctions.Remove(auction);
+         _context.Auctions.Remove(auction);
+
+        await _publishEndpoint.Publish<AuctionDeleted>(new { Id = auction.Id.ToString() });
 
         var result = await _context.SaveChangesAsync() > 0;
 
