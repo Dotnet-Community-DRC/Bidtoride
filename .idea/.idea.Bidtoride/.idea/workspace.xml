@@ -5,6 +5,7 @@
     <projectFile profileName="https">Bidtoride/Bidtoride.csproj</projectFile>
     <projectFile profileName="http">src/AuctionService/AuctionService.csproj</projectFile>
     <projectFile profileName="https">src/AuctionService/AuctionService.csproj</projectFile>
+    <projectFile profileName="http">src/GatewayService/GatewayService.csproj</projectFile>
     <projectFile profileName="SelfHost">src/IdentityService/IdentityService.csproj</projectFile>
     <projectFile profileName="http">src/SearchService/SearchService.csproj</projectFile>
     <projectFile profileName="https">src/SearchService/SearchService.csproj</projectFile>
@@ -13,7 +14,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="" />
+    <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AuctionService/Consumers/AuctionFinishedConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuctionService/Consumers/BidPlacedConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchService/Consumers/AuctionFinishedConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchService/Consumers/BidPlacedConsumer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IdentityService/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/IdentityService/Config.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,6 +161,21 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="GatewayService: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/GatewayService/GatewayService.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="IdentityService: SelfHost" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/IdentityService/IdentityService.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -211,6 +242,7 @@
       <workItem from="1693564863261" duration="1083000" />
       <workItem from="1693575600920" duration="13156000" />
       <workItem from="1694173872175" duration="5428000" />
+      <workItem from="1694438934331" duration="3355000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <option name="closed" value="true" />
