@@ -61,7 +61,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:80
-      - ConnectionStrings__DefaultConnection=Server=postgres:5434;User Id=postgres;Password=password;Database=identity
+      - ConnectionStrings__DefaultConnection=Server=postgres:5432;User Id=postgres;Password=password;Database=identity
     ports:
       - 5005:80
     depends_on:
