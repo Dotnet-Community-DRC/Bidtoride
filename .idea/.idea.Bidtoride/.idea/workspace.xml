@@ -15,20 +15,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AuctionService/Consumers/AuctionFinishedConsumer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AuctionService/Consumers/BidPlacedConsumer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchService/Consumers/AuctionFinishedConsumer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchService/Consumers/BidPlacedConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuctionService/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IdentityService/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchService/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/AuctionService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/AuctionService.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IdentityService/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/IdentityService/Config.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IdentityService/IdentityService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/IdentityService/IdentityService.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IdentityService/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/IdentityService/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchService/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchService/SearchService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchService/SearchService.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchService/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchService/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchService/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +110,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.SearchService: http">
+  <component name="RunManager" selected="Docker.IdentityService/Dockerfile">
     <configuration name="AuctionService: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/AuctionService/AuctionService.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
@@ -221,6 +231,131 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="AuctionService/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="auctionservice" />
+          <option name="containerName" value="auctionservice" />
+          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="80" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="src/AuctionService/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IdentityService/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="sudidav/search-svc:latest" />
+          <option name="containerName" value="identityservice" />
+          <option name="contextFolderPath" value="." />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="ASPNETCORE_ENVIRONMENT" />
+                <option name="value" value="Development" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="ASPNETCORE_URLS" />
+                <option name="value" value="http://+:80" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="ConnectionStrings_DefaultConnection" />
+                <option name="value" value="Server=postgres:5432;User Id=postgres;Password=password;Database=identity" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="80" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="src/IdentityService/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2">
+        <option name="LaunchBrowser.Before.Run" />
+      </method>
+    </configuration>
+    <configuration name="SearchService/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="searchservice" />
+          <option name="containerName" value="searchservice" />
+          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="80" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="src/SearchService/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.auction-svc: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="auction-svc" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.AuctionService: http" />
+      <item itemvalue=".NET Launch Settings Profile.AuctionService: https" />
+      <item itemvalue=".NET Launch Settings Profile.Bidtoride: http" />
+      <item itemvalue=".NET Launch Settings Profile.Bidtoride: https" />
+      <item itemvalue=".NET Launch Settings Profile.GatewayService: http" />
+      <item itemvalue=".NET Launch Settings Profile.IdentityService: SelfHost" />
+      <item itemvalue=".NET Launch Settings Profile.SearchService: http" />
+      <item itemvalue=".NET Launch Settings Profile.SearchService: https" />
+      <item itemvalue="Docker.AuctionService/Dockerfile" />
+      <item itemvalue="Docker.IdentityService/Dockerfile" />
+      <item itemvalue="Docker.SearchService/Dockerfile" />
+      <item itemvalue="Docker.docker-compose.yml.auction-svc: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.auction-svc: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -242,7 +377,10 @@
       <workItem from="1693564863261" duration="1083000" />
       <workItem from="1693575600920" duration="13156000" />
       <workItem from="1694173872175" duration="5428000" />
-      <workItem from="1694438934331" duration="3355000" />
+      <workItem from="1694438934331" duration="4847000" />
+      <workItem from="1694521721757" duration="2360000" />
+      <workItem from="1694524108667" duration="15599000" />
+      <workItem from="1694723410473" duration="2013000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <option name="closed" value="true" />

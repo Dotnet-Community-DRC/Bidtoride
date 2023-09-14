@@ -4,6 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,8 +17,4 @@
   <ItemGroup>
     <ProjectReference Include="..\Contracts\Contracts.csproj" />
   </ItemGroup>
-
-
-
-
 </Project>
