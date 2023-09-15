@@ -51,3 +51,4 @@
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/obj/Debug/net7.0/AuctionService.sourcelink.json

@@ -66,3 +66,13 @@ services:
       - 5005:80
     depends_on:
       - postgres
+  gateway-svc:
+    image: sudidav/gateway-svc:latest
+    build:
+      context: .
+      dockerfile: src/GatewayService/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - 60001:80
