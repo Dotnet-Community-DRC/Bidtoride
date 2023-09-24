@@ -14,24 +14,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/web-app/app/auctions/CountdownTimer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AuctionService.UnitTests/AuctionEntityTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AuctionService.UnitTests/AuctionService.UnitTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AuctionService.UnitTests/Usings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bidtoride.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Bidtoride.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/Entities/Auction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/Entities/Auction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/bin/Debug/net7.0/AuctionService.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IdentityService/HostingExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/IdentityService/HostingExtensions.cs" afterDir="false" />
-    </list>
+    <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -399,7 +382,7 @@
       <workItem from="1695216583482" duration="1235000" />
       <workItem from="1695450435065" duration="2214000" />
       <workItem from="1695486489179" duration="577000" />
-      <workItem from="1695487090162" duration="11000" />
+      <workItem from="1695487090162" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <option name="closed" value="true" />
