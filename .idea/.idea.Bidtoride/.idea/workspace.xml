@@ -14,7 +14,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="" />
+    <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/web-app/app/auctions/Filters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -382,7 +385,7 @@
       <workItem from="1695216583482" duration="1235000" />
       <workItem from="1695450435065" duration="2214000" />
       <workItem from="1695486489179" duration="577000" />
-      <workItem from="1695487090162" duration="657000" />
+      <workItem from="1695487090162" duration="1899000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <option name="closed" value="true" />
