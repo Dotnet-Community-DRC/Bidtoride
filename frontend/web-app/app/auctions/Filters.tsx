@@ -1,3 +1,5 @@
+import { Button } from 'flowbite-react';
+import ButtonGroup from 'flowbite-react/lib/esm/components/Button/ButtonGroup';
 import React from 'react';
 
 type Props = {
@@ -5,8 +7,25 @@ type Props = {
   setPageSize: (size: number) => void;
 };
 
-const pageZieButtons = [4, 8, 12];
+const pageZiseButtons = [4, 8, 12];
 
-export default function Filters() {
-  return <div>Filters</div>;
+export default function Filters({ pageSize, setPageSize }: Props) {
+  return (
+    <div className='flex justify-between items-center mb-4'>
+      <div>
+        <span className='uppercase text-sm text-gray-500 mr-2'>Page Size</span>
+        <ButtonGroup>
+          {pageZiseButtons.map((value, i) => (
+            <Button
+              key={i}
+              onClick={() => setPageSize(value)}
+              color={`${pageSize === value ? 'red' : 'gray'}`}>
+              {' '}
+              {value}
+            </Button>
+          ))}
+        </ButtonGroup>
+      </div>
+    </div>
+  );
 }
