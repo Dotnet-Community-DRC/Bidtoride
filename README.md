@@ -4,7 +4,7 @@ Auction car microservice learning
 
 ## Built With
 
-* [.Net](https://dotnet.microsoft.com/) - The web framework used
+* [.Net](https://dotnet.microsoft.com/) - The web framework used for backend service
 * [Docker](https://www.docker.com/) - Deployment
 * [Kubernetes](https://kubernetes.io/) - Orchestration
 * [RabbitMQ](https://www.rabbitmq.com/) - Messaging
