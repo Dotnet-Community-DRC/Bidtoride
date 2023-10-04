@@ -27,7 +27,7 @@ public class DbInitializer
             	    // 1 Ford GT
             new Auction
             {
-                Id = Guid.Parse("afbee524-5972-4075-8800-7d1f9d7b0a0c"),
+                Id = Guid.Parse(" "),
                 Status = Status.Live,
                 ReservePrice = 20000,
                 Seller = "bob",
