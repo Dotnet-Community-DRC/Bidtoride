@@ -15,9 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/web-app/app/lib/featchWrapper.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/auctions/AuctionForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/auctions/AuctionForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/auctions/CardImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/auctions/CardImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/actions/auctionActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/actions/auctionActions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/components/DateInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/components/DateInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/session/AuthTest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/session/AuthTest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" afterDir="false" />
     </list>
@@ -79,7 +84,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AIAssistantPromptsLibrary&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -87,8 +92,8 @@
       &quot;GitIgnore&quot;
     ],
     &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/sudi/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/sudi/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
       &quot;/Users/sudi/.local/share/Symbols/src&quot;
     ]
   }
@@ -409,6 +414,9 @@
       <workItem from="1699002685016" duration="1623000" />
       <workItem from="1699089047447" duration="2903000" />
       <workItem from="1699625809029" duration="695000" />
+      <workItem from="1700033112682" duration="37000" />
+      <workItem from="1700045412055" duration="2051000" />
+      <workItem from="1700745528154" duration="109000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <option name="closed" value="true" />
