@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import NavBar from './nav/NavBar';
 import './globals.css';
+import ToasterProvider from './providers/ToasterProvider';
 
 export const metadata: Metadata = {
   title: 'Bid2Ride',
@@ -15,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
+        <ToasterProvider/>
         <NavBar />
         <main className='container mx-auto px-5 pt-10'>{children}</main>
       </body>
