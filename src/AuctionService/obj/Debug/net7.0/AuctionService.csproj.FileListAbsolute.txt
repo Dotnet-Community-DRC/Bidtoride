@@ -52,3 +52,16 @@
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/obj/Debug/net7.0/AuctionService.genruntimeconfig.cache
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/obj/Debug/net7.0/ref/AuctionService.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/obj/Debug/net7.0/AuctionService.MvcApplicationPartsAssemblyInfo.cs
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Google.Protobuf.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Grpc.AspNetCore.Server.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Grpc.AspNetCore.Server.ClientFactory.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Grpc.Core.Api.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Grpc.Net.Client.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Grpc.Net.ClientFactory.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Grpc.Net.Common.dll
