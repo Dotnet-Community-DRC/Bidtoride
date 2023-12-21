@@ -1,5 +1,3 @@
-using MongoDB.Entities;
-
 namespace BiddingService.Models;
 
 public class Bid: Entity

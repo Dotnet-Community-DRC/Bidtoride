@@ -1,22 +1,22 @@
-import { create } from 'zustand';
+import { create } from 'zustand'
 
 type State = {
-  pageNumber: number;
-  pageSize: number;
-  pagecount: number;
-  searchTerm: string;
-  searchValue: string;
-  orderBy: string;
-  filterBy: string;
-  seller?: string;
-  winner?: string;
-};
+  pageNumber: number
+  pageSize: number
+  pagecount: number
+  searchTerm: string
+  searchValue: string
+  orderBy: string
+  filterBy: string
+  seller?: string
+  winner?: string
+}
 
 type Actions = {
-  setParams: (params: Partial<State>) => void;
-  reset: () => void;
-  setSearchValue: (value: string) => void;
-};
+  setParams: (params: Partial<State>) => void
+  reset: () => void
+  setSearchValue: (value: string) => void
+}
 
 const initalState: State = {
   pageNumber: 1,
@@ -28,23 +28,23 @@ const initalState: State = {
   filterBy: 'live',
   seller: undefined,
   winner: undefined,
-};
+}
 
-export const useParamsStore = create<State & Actions>()(set => ({
+export const useParamsStore = create<State & Actions>()((set) => ({
   ...initalState,
 
   setParams: (newParams: Partial<State>) => {
-    set(state => {
+    set((state) => {
       if (newParams.pageNumber) {
-        return { ...state, pageNumber: newParams.pageNumber };
+        return { ...state, pageNumber: newParams.pageNumber }
       } else {
-        return { ...state, ...newParams, pageNumber: 1 };
+        return { ...state, ...newParams, pageNumber: 1 }
       }
-    });
+    })
   },
 
   reset: () => set(initalState),
   setSearchValue: (value: string) => {
-    set({ searchValue: value });
+    set({ searchValue: value })
   },
-}));
+}))

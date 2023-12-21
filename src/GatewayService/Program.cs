@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
         b.AllowAnyHeader()
             .AllowAnyMethod() 
             .AllowCredentials()
-            .WithOrigins(builder.Configuration["ClientApp"] ?? String.Empty);
+            .WithOrigins(builder.Configuration["ClientApp"] ?? string.Empty);
     });
 });
 

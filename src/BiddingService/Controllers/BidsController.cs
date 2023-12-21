@@ -50,15 +50,15 @@ public class BidsController : ControllerBase
                 .Match(a => a.AuctionId == auctionId)
                 .Sort(b => b.Descending(x => x.Amount))
                 .ExecuteFirstAsync();
-        
-            if (highBid is not null && amount > highBid.Amount || highBid is null)
+
+            if (highBid != null && amount > highBid.Amount || highBid == null)
             {
                 bid.BidStatus = amount > auction.ReservePrice
                     ? BidStatus.Accepted
                     : BidStatus.AcceptedBelowReserve;
             }
 
-            if (highBid is not null && bid.Amount > highBid.Amount)
+            if (highBid != null && bid.Amount <= highBid.Amount)
             {
                 bid.BidStatus = BidStatus.TooLow;
             }
@@ -75,8 +75,9 @@ public class BidsController : ControllerBase
     {
         var bids = await DB.Find<Bid>()
             .Match(a => a.AuctionId == auctionId)
-            .Sort(d => d.Descending(b => b.BidTime))
+            .Sort(b => b.Descending(a => a.BidTime))
             .ExecuteAsync();
-        return bids.Select(_mapper.Map<BidDto>).ToList(); 
+
+        return bids.Select(_mapper.Map<BidDto>).ToList();
     }
 }

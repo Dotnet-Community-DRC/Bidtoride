@@ -21,6 +21,7 @@ builder.Services.AddMassTransit(x =>
         cfg.ConfigureEndpoints(context);
     });
 });
+
 builder.Services.AddSignalR();
 
 var app = builder.Build();

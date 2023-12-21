@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mn2qeN8ZUCVyIb1mc19b7yrmzM1ZRoEWAbRSf0x5Nq1+pehZGhvOBmbxKXbiYyEBVeEIll5KDVqnQtGd6w+SBA==",
+  "dgSpecHash": "UdkeHHswdMRjSYXMj4aGdkxU3UIMmW8rEKAfxod6q0Rv4GkQfUp+IED+XdtljhlJO9wZ/g2hxABm2x0afJMErw==",
   "success": true,
   "projectFilePath": "/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/AuctionService.csproj",
   "expectedPackageFiles": [
@@ -68,10 +68,7 @@
     "/Users/sudi/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/Users/sudi/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/sudi/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
-    "/Users/sudi/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
-    "/Users/sudi/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "/Users/sudi/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "/Users/sudi/.nuget/packages/microsoft.netcore.app.host.osx-x64/7.0.14/microsoft.netcore.app.host.osx-x64.7.0.14.nupkg.sha512"
+    "/Users/sudi/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
