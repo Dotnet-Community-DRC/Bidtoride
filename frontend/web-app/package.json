@@ -20,7 +20,7 @@
     "eslint-config-next": "13.4.19",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.6.1",
-    "next": "13.4.19",
+    "next": "13.5.1",
     "next-auth": "^4.24.5",
     "postcss": "8.4.30",
     "query-string": "^8.1.0",
