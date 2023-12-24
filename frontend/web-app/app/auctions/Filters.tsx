@@ -1,31 +1,102 @@
-import { Button } from 'flowbite-react';
-import ButtonGroup from 'flowbite-react/lib/esm/components/Button/ButtonGroup';
-import React from 'react';
+import { Button } from 'flowbite-react'
+import React from 'react'
+import { useParamsStore } from '../../hooks/useParamStore'
+import { AiOutlineClockCircle, AiOutlineSortAscending } from 'react-icons/ai'
+import { BsFillStopCircleFill, BsStopwatch } from 'react-icons/bs'
+import { GiFinishLine, GiFlame } from 'react-icons/gi'
 
-type Props = {
-  pageSize: number;
-  setPageSize: (size: number) => void;
-};
+const pageZiseButtons = [4, 8, 12]
+const orderButtons = [
+  {
+    label: 'Alphabetical',
+    icon: AiOutlineSortAscending,
+    value: 'make',
+  },
+  {
+    label: 'End Date',
+    icon: AiOutlineClockCircle,
+    value: 'endingSoon',
+  },
+  {
+    label: 'Recently Added',
+    icon: BsFillStopCircleFill,
+    value: 'new',
+  },
+]
 
-const pageZiseButtons = [4, 8, 12];
+const filterButtons = [
+  {
+    label: 'Live Auctions',
+    icon: GiFlame,
+    value: 'live',
+  },
+  {
+    label: 'Ending < 6 hours',
+    icon: GiFinishLine,
+    value: 'endingSoon',
+  },
+  {
+    label: 'Completed',
+    icon: BsStopwatch,
+    value: 'finished',
+  },
+]
 
-export default function Filters({ pageSize, setPageSize }: Props) {
+export default function Filters() {
+  const pageSize = useParamsStore((state) => state.pageSize)
+  const setParams = useParamsStore((state) => state.setParams)
+  const orderBy = useParamsStore((state) => state.orderBy)
+  const filterBy = useParamsStore((state) => state.filterBy)
+
   return (
-    <div className='flex justify-between items-center mb-4'>
+    <div className="flex justify-between items-center mb-4">
       <div>
-        <span className='uppercase text-sm text-gray-500 mr-2'>Page Size</span>
-        <ButtonGroup>
+        <span className="uppercase text-sm text-gray-500 mr-2">Order By</span>
+        <Button.Group>
+          {orderButtons.map(({ label, icon: Icon, value }) => (
+            <Button
+              key={value}
+              onClick={() => setParams({ orderBy: value })}
+              color={`${orderBy === value ? 'blue' : 'gray'}`}
+            >
+              <Icon className="mr-3 h-4 w-4" />
+              {label}
+            </Button>
+          ))}
+        </Button.Group>
+      </div>
+
+      <div>
+        <span className="uppercase text-sm text-gray-500 mr-2">Filter By</span>
+        <Button.Group>
+          {filterButtons.map(({ label, icon: Icon, value }) => (
+            <Button
+              key={value}
+              onClick={() => setParams({ filterBy: value })}
+              color={`${filterBy === value ? 'blue' : 'gray'}`}
+            >
+              <Icon className="mr-3 h-4 w-4" />
+              {label}
+            </Button>
+          ))}
+        </Button.Group>
+      </div>
+
+      <div>
+        <span className="uppercase text-sm text-gray-500 mr-2">Page Size</span>
+        <Button.Group>
           {pageZiseButtons.map((value, i) => (
             <Button
               key={i}
-              onClick={() => setPageSize(value)}
-              color={`${pageSize === value ? 'red' : 'gray'}`}>
+              onClick={() => setParams({ pageSize: value })}
+              color={`${pageSize === value ? 'blue' : 'gray'}`}
+            >
               {' '}
               {value}
             </Button>
           ))}
-        </ButtonGroup>
+        </Button.Group>
       </div>
     </div>
-  );
+  )
 }

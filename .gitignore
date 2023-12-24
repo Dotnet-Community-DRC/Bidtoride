@@ -97,6 +97,8 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+**/bin/*
+**/obj/*
 
 # Chutzpah Test files
 _Chutzpah*
@@ -397,6 +399,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 .idea/
-.idea.Bidtoride/
-.idea/workspace.xml
 
