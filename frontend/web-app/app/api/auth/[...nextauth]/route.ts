@@ -1,5 +1,5 @@
-import NextAuth, { NextAuthOptions } from 'next-auth';
-import DuendeIDS6Provider from 'next-auth/providers/duende-identity-server6';
+import NextAuth, { NextAuthOptions } from 'next-auth'
+import DuendeIDS6Provider from 'next-auth/providers/duende-identity-server6'
 
 export const authOptions: NextAuthOptions = {
   session: {
@@ -10,7 +10,7 @@ export const authOptions: NextAuthOptions = {
       id: 'id-server',
       clientId: 'nextApp',
       clientSecret: 'mysecret',
-      issuer: 'http://localhost:5005',
+      issuer: process.env.ID_URL!,
       authorization: { params: { scope: 'openid profile bidtoride' } },
       idToken: true,
     }),
@@ -18,25 +18,25 @@ export const authOptions: NextAuthOptions = {
   callbacks: {
     async jwt({ token, profile, account }) {
       if (profile) {
-        token.username = profile.username;
+        token.username = profile.username
       }
 
       if (account) {
-        token.access_token = account.access_token;
+        token.access_token = account.access_token
       }
 
-      return token;
+      return token
     },
 
     async session({ session, token }) {
       if (token) {
-        session.user.username = token.username;
+        session.user.username = token.username
       }
-      return session;
+      return session
     },
   },
-};
+}
 
-const handler = NextAuth(authOptions);
+const handler = NextAuth(authOptions)
 
-export { handler as GET, handler as POST };
+export { handler as GET, handler as POST }

@@ -1,3 +1,9 @@
+networks:
+  custom:
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+
 services: 
   postgres:
     image: postgres
@@ -7,6 +13,8 @@ services:
       - 5434:5432
     volumes: 
       - /var/lib/postgresql/data
+    networks: 
+      custom:
   mongo:
     image: mongo
     environment:
@@ -16,11 +24,15 @@ services:
       - 27019:27017
     volumes:
       - /var/lib/mongodb/data
+    networks:
+      custom:
   rabbitmq: 
     image: rabbitmq:3-management-alpine
     ports:
       - 5672:5672
       - 15672:15672
+    networks:
+      custom:
   auction-svc:
     image: sudidav/auction-svc:latest
     build:
@@ -42,6 +54,8 @@ services:
     depends_on: 
       - rabbitmq
       - postgres
+    networks:
+      custom:
   search-svc:
     image: sudidav/search-svc:latest
     build:
@@ -58,6 +72,8 @@ services:
     depends_on:
       - rabbitmq
       - mongo
+    networks:
+      custom:
   identity-svc:
     image: sudidav/identity-svc:latest
     build:
@@ -66,11 +82,14 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80
+      - ClientApp=http://app.bidtoride.com
       - ConnectionStrings__DefaultConnection=Server=postgres:5432;User Id=postgres;Password=password;Database=identity
-    ports:
-      - 5005:80
+      - VIRTUAL_HOST=id.bidtoride.com
     depends_on:
       - postgres
+    networks:
+      custom:
+        ipv4_address: 10.5.0.200
   gateway-svc:
     image: sudidav/gateway-svc:latest
     build:
@@ -79,8 +98,10 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
       - ASPNETCORE_URLS=http://+:80
-    ports:
-      - 6001:80
+      - ClientApp=https://app.bidtoride.com
+      - VIRTUAL_HOST=api.bidtoride.com
+    networks:
+      custom:
   bid-svc:
     image: sudidav/bid-svc:latest
     build:
@@ -98,6 +119,8 @@ services:
     depends_on:
       - mongo
       - rabbitmq
+    networks:
+      custom:
   notify-svc:
     image: sudidav/notify-svc:latest
     build:
@@ -111,3 +134,35 @@ services:
       - 7004:80
     depends_on:
       - rabbitmq
+    networks:
+      custom:
+  web-app:
+    image: sudidav/web-app
+    build:
+      context: .
+      dockerfile: frontend/web-app/Dockerfile
+    volumes:
+      - /var/lib/web/data
+    extra_hosts: 
+      - id.bidtoride.com:10.5.0.200
+    environment:
+      - NEXTAUTH_SECRET=putareallycoolsecret
+      - NEXTAUTH_URL=http://app.bidtoride.com
+      - NEXTAUTH_URL_INTERNAL=http://web-app:3000
+      - API_URL=http://gateway-svc/
+      - ID_URL=http://id.bidtoride.com
+      - NEXT_PUBLIC_NOTIFY_URL=http://gateway-svc/notifications
+      - VIRTUAL_HOST=app.bidtoride.com
+      - VIRTUAL_PORT=3000
+    networks:
+      custom:
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      custom:
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - ./devcerts:/etc/nginx/certs

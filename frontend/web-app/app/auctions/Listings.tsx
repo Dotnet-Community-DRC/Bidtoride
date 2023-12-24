@@ -6,11 +6,11 @@ import { Auction, PagedResult } from '@/types'
 import AppPagination from '../components/AppPagination'
 import { getData } from '../actions/auctionActions'
 import Filters from './Filters'
-import { useParamsStore } from '../hooks/useParamStore'
+import { useParamsStore } from '../../hooks/useParamStore'
 import { shallow } from 'zustand/shallow'
 import qs from 'query-string'
 import EmptyFilter from '../components/EmptyFilter'
-import { useAuctionStore } from '../hooks/useAuctionStore'
+import { useAuctionStore } from '../../hooks/useAuctionStore'
 
 export default function Listings() {
   const [loading, setLoading] = useState(true)

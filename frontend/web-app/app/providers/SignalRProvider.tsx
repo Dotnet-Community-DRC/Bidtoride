@@ -2,8 +2,8 @@
 
 import React, { ReactNode, useEffect, useState } from 'react'
 import { HubConnection, HubConnectionBuilder } from '@microsoft/signalr'
-import { useAuctionStore } from '../hooks/useAuctionStore'
-import { useBidStore } from '../hooks/useBidStore'
+import { useAuctionStore } from '../../hooks/useAuctionStore'
+import { useBidStore } from '../../hooks/useBidStore'
 import { Auction, AuctionFinished, Bid } from '@/types'
 import { User } from 'next-auth'
 import toast from 'react-hot-toast'
@@ -19,15 +19,19 @@ export default function SignalRProvider({ children, user }: Props) {
   const [connection, setConnection] = useState<HubConnection | null>(null)
   const setCurrentPrice = useAuctionStore((state) => state.setCurrentPrice)
   const addBid = useBidStore((state) => state.addBid)
+  const apiUrl =
+    process.env.NODE_ENV === 'production'
+      ? 'https://api.bidtoride.com/notifications'
+      : process.env.NEXT_PUBLIC_NOTIFY_URL
 
   useEffect(() => {
     const newConnection = new HubConnectionBuilder()
-      .withUrl('http://localhost:6001/notifications')
+      .withUrl(apiUrl!)
       .withAutomaticReconnect()
       .build()
 
     setConnection(newConnection)
-  }, [])
+  }, [apiUrl])
 
   useEffect(() => {
     if (connection) {
