@@ -19,12 +19,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/web-app/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/actions/authActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/actions/authActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/hooks/useParamStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/hooks/useParamStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/web-app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/api/auth/[...nextauth]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/auctions/CountdownTimer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/auctions/CountdownTimer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/auctions/Filters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/auctions/Filters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/auctions/Listings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/auctions/Listings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/auctions/details/[id]/BidForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/auctions/details/[id]/BidForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/auctions/details/[id]/BidList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/auctions/details/[id]/BidList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/components/EmptyFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/components/EmptyFilter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/hooks/useAuctionStore.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/hooks/useBidStore.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/hooks/useParamStore.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/lib/fetchWrapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/lib/fetchWrapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/nav/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/nav/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/nav/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/nav/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/nav/UserActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/nav/UserActions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/app/providers/SignalRProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/app/providers/SignalRProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web-app/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web-app/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" afterDir="false" />
     </list>
@@ -80,36 +94,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.AuctionService: http.executor": "Debug",
-    ".NET Launch Settings Profile.BiddingService: http.executor": "Debug",
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feat/add-notification-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.AuctionService: http.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.BiddingService: http.executor&quot;: &quot;Debug&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/deploy-on-local&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AIAssistantPromptsLibrary&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "GitIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;GitIgnore&quot;
     ],
-    "rider.external.source.directories": [
-      "/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
-      "/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
-      "/Users/sudi/.local/share/Symbols/src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/sudi/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AuctionService: http">
     <configuration name="BiddingService" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -565,6 +579,7 @@
       <workItem from="1702567487074" duration="665000" />
       <workItem from="1702636587546" duration="4737000" />
       <workItem from="1702987486858" duration="1201000" />
+      <workItem from="1703421143469" duration="6559000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <option name="closed" value="true" />
@@ -590,19 +605,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/BiddingService/Controllers/BidsController.cs</url>
-          <line>23</line>
-          <properties documentPath="$PROJECT_DIR$/src/BiddingService/Controllers/BidsController.cs" initialLine="23" containingFunctionPresentation="Method 'PlaceBid'">
-            <startOffsets>
-              <option value="727" />
-            </startOffsets>
-            <endOffsets>
-              <option value="747" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/src/AuctionService/Services/GrpcAuctionService.cs</url>
           <line>17</line>

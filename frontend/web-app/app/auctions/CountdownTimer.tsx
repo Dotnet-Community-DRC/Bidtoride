@@ -1,6 +1,6 @@
 'use client'
 
-import { useBidStore } from '../hooks/useBidStore'
+import { useBidStore } from '../../hooks/useBidStore'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 import Countdown, { zeroPad } from 'react-countdown'

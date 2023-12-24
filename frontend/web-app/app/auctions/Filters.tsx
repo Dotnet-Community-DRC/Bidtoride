@@ -1,11 +1,11 @@
-import { Button } from 'flowbite-react';
-import React from 'react';
-import { useParamsStore } from '../hooks/useParamStore';
-import { AiOutlineClockCircle, AiOutlineSortAscending } from 'react-icons/ai';
-import { BsFillStopCircleFill, BsStopwatch } from 'react-icons/bs';
-import { GiFinishLine, GiFlame } from 'react-icons/gi';
+import { Button } from 'flowbite-react'
+import React from 'react'
+import { useParamsStore } from '../../hooks/useParamStore'
+import { AiOutlineClockCircle, AiOutlineSortAscending } from 'react-icons/ai'
+import { BsFillStopCircleFill, BsStopwatch } from 'react-icons/bs'
+import { GiFinishLine, GiFlame } from 'react-icons/gi'
 
-const pageZiseButtons = [4, 8, 12];
+const pageZiseButtons = [4, 8, 12]
 const orderButtons = [
   {
     label: 'Alphabetical',
@@ -22,7 +22,7 @@ const orderButtons = [
     icon: BsFillStopCircleFill,
     value: 'new',
   },
-];
+]
 
 const filterButtons = [
   {
@@ -40,25 +40,26 @@ const filterButtons = [
     icon: BsStopwatch,
     value: 'finished',
   },
-];
+]
 
 export default function Filters() {
-  const pageSize = useParamsStore(state => state.pageSize);
-  const setParams = useParamsStore(state => state.setParams);
-  const orderBy = useParamsStore(state => state.orderBy);
-  const filterBy = useParamsStore(state => state.filterBy);
+  const pageSize = useParamsStore((state) => state.pageSize)
+  const setParams = useParamsStore((state) => state.setParams)
+  const orderBy = useParamsStore((state) => state.orderBy)
+  const filterBy = useParamsStore((state) => state.filterBy)
 
   return (
-    <div className='flex justify-between items-center mb-4'>
+    <div className="flex justify-between items-center mb-4">
       <div>
-        <span className='uppercase text-sm text-gray-500 mr-2'>Order By</span>
+        <span className="uppercase text-sm text-gray-500 mr-2">Order By</span>
         <Button.Group>
           {orderButtons.map(({ label, icon: Icon, value }) => (
             <Button
               key={value}
               onClick={() => setParams({ orderBy: value })}
-              color={`${orderBy === value ? 'blue' : 'gray'}`}>
-              <Icon className='mr-3 h-4 w-4' />
+              color={`${orderBy === value ? 'blue' : 'gray'}`}
+            >
+              <Icon className="mr-3 h-4 w-4" />
               {label}
             </Button>
           ))}
@@ -66,14 +67,15 @@ export default function Filters() {
       </div>
 
       <div>
-        <span className='uppercase text-sm text-gray-500 mr-2'>Filter By</span>
+        <span className="uppercase text-sm text-gray-500 mr-2">Filter By</span>
         <Button.Group>
           {filterButtons.map(({ label, icon: Icon, value }) => (
             <Button
               key={value}
               onClick={() => setParams({ filterBy: value })}
-              color={`${filterBy === value ? 'blue' : 'gray'}`}>
-              <Icon className='mr-3 h-4 w-4' />
+              color={`${filterBy === value ? 'blue' : 'gray'}`}
+            >
+              <Icon className="mr-3 h-4 w-4" />
               {label}
             </Button>
           ))}
@@ -81,13 +83,14 @@ export default function Filters() {
       </div>
 
       <div>
-        <span className='uppercase text-sm text-gray-500 mr-2'>Page Size</span>
+        <span className="uppercase text-sm text-gray-500 mr-2">Page Size</span>
         <Button.Group>
           {pageZiseButtons.map((value, i) => (
             <Button
               key={i}
               onClick={() => setParams({ pageSize: value })}
-              color={`${pageSize === value ? 'blue' : 'gray'}`}>
+              color={`${pageSize === value ? 'blue' : 'gray'}`}
+            >
               {' '}
               {value}
             </Button>
@@ -95,5 +98,5 @@ export default function Filters() {
         </Button.Group>
       </div>
     </div>
-  );
+  )
 }

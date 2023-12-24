@@ -1,7 +1,7 @@
 'use client'
 import { getBidsForAuction } from '@/app/actions/auctionActions'
 import Heading from '@/app/components/Heading'
-import { useBidStore } from '@/app/hooks/useBidStore'
+import { useBidStore } from '@/hooks/useBidStore'
 import { Auction, Bid } from '@/types'
 import { User } from 'next-auth'
 import React, { useEffect, useState } from 'react'
@@ -58,7 +58,9 @@ export default function BidList({ user, auction }: Props) {
     <div className="rounded-lg shadow-md">
       <div className="py-2 px-2 bg-white">
         <div className="sticky top-0 bg-white p-2">
-          <Heading title={`Current high bid is $${numberWithCommas(highBid)}`} />
+          <Heading
+            title={`Current high bid is $${numberWithCommas(highBid)}`}
+          />
         </div>
       </div>
 
