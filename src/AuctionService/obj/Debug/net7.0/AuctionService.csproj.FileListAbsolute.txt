@@ -65,3 +65,7 @@
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Grpc.Net.Client.dll
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Grpc.Net.ClientFactory.dll
 /Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Grpc.Net.Common.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/AutoFixture.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Castle.Core.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Fare.dll
+/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/bin/Debug/net7.0/Moq.dll
