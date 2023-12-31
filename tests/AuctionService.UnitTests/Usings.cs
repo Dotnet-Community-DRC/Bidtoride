@@ -1,1 +1,14 @@
 global using Xunit;
+global using AuctionService.Controllers;
+global using AuctionService.Data;
+global using AuctionService.RequestHelpers;
+global using AutoFixture; 
+global using AutoMapper;
+global using MassTransit;
+global using Moq;
+global using System.Security.Claims;
+global using AuctionService.DTOs;
+global using AuctionService.Entities;
+global using AuctionService.UnitTests.utils;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
