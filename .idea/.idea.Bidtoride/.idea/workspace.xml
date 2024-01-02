@@ -19,31 +19,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5367752-cdc0-47d1-8540-e27b7cc330cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AuctionService/Data/AuctionRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AuctionService/Data/IAuctionRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AuctionService.UnitTests/AuctionControllerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/AuctionService.UnitTests/utils/Helpers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuctionService.IntegrationTests/AuctionBusTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuctionService.IntegrationTests/AuctionControllerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuctionService.IntegrationTests/AuctionService.IntegrationTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuctionService.IntegrationTests/Fixtures/CustomWebAppFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuctionService.IntegrationTests/Helpers/AuthHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuctionService.IntegrationTests/Helpers/DbHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuctionService.IntegrationTests/Helpers/ServiceCollectionExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuctionService.IntegrationTests/Usings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bidtoride/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bidtoride.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Bidtoride.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/AuctionService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/AuctionService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/Controllers/AuctionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/Controllers/AuctionsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/Data/DbInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/Data/DbInitializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/AuctionService.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/AuctionService.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/Debug/net7.0/apphost" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuctionService/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AuctionService.UnitTests/AuctionEntityTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AuctionService.UnitTests/AuctionEntityTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AuctionService.UnitTests/Usings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AuctionService.UnitTests/Usings.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +67,10 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../AuctionService.IntegrationTests/Fixtures/CustomWebAppFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../AuctionService.IntegrationTests/GlobalUsings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../AuctionService.IntegrationTests/Helpers/DbHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../AuctionService.IntegrationTests/Helpers/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/AuctionService/Controllers/AuctionsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/AuctionService/Data/DbInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/AuctionService/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,11 +78,13 @@
     <setting file="file://$PROJECT_DIR$/../Minimal-URL-Shortener/src/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Data Structures and Algorithms In Depth using C#/Data Structures and Algorithms In Depth using C#/Data Structures and Algorithms In Depth using C#/4. Searching Algorithms/2.1 LinearSearch.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b616a04aee234f559f7397d94bd90dadb200/b7/1d781460/BackgroundService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f8c859fa67af41f8bd90fc15f4f9c01c95c0/a8/2d367a9b/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1dad7066d59e42d92476c5ad1180c2b63352d32689dd3d3be2bb2aa26b3bea5/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2cec48f78a771b6eb7d76c8f22633d3a6bb0178cac2d36a2185d6e904de8c4/RegistrationContextExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/44cad551704bc7dae78cc7717b8b9f9313582aa8e67a6585a69de0cc33b4b8/IServiceCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6dbfe61bf666d46cf4f290bd8134321977b48e30cf519b77324b6f03911fb/Save.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8b49aa98ed3ae47018322dd268ac515da41b3767404de1152b35a2987cca3fc9/RegistrationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/985b8e6debfa6a2c8337e88c20a81b9f1b24c6411fbdebcd1e0c98a85ac8fda/IClassFixture.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bfd8c4efd1ef9920893d6c1b2a2464cd9b28e54bd9fa9574dbd4a810a0cd/CultureInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c2f8e44da84e617a76d3c0d3215f927da267c4719b7b292db5828108898e92a/DependencyInjectionRegistrationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cc4c889cc6695421e5ba7380782096616c46a660e8b5c920df3b7564dcef43/ServiceDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -98,37 +105,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.AuctionService: http.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Launch Settings Profile.BiddingService: http.executor&quot;: &quot;Debug&quot;,
-    &quot;311c5c37-18df-4511-a6c7-64ac855b26f8.executor&quot;: &quot;Debug&quot;,
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AIAssistantPromptsLibrary&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.AuctionService: http.executor": "Debug",
+    ".NET Launch Settings Profile.BiddingService: http.executor": "Debug",
+    "311c5c37-18df-4511-a6c7-64ac855b26f8.executor": "Debug",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "b589d477-89cc-46d2-b0d0-2a29b4dfdb77.executor": "Debug",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;GitIgnore&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "GitIgnore"
     ],
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/sudi/.local/share/Symbols/src&quot;
+    "rider.external.source.directories": [
+      "/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/Users/sudi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/Users/sudi/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AuctionService: http">
     <configuration name="BiddingService" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -588,6 +596,8 @@
       <workItem from="1703785555100" duration="3534000" />
       <workItem from="1703836929539" duration="2907000" />
       <workItem from="1703948498459" duration="3476000" />
+      <workItem from="1704200687927" duration="6539000" />
+      <workItem from="1704209483082" duration="6865000" />
     </task>
     <task id="LOCAL-00001" summary="InitialCommit">
       <option name="closed" value="true" />
@@ -638,6 +648,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/tests/AuctionService.IntegrationTests/AuctionBusTests.cs</url>
+          <line>27</line>
+          <properties documentPath="$PROJECT_DIR$/tests/AuctionService.IntegrationTests/AuctionBusTests.cs" initialLine="27" containingFunctionPresentation="Method 'CreateAuction_WithValidObject_ShouldPublishAuctionCreated'">
+            <startOffsets>
+              <option value="870" />
+            </startOffsets>
+            <endOffsets>
+              <option value="905" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
