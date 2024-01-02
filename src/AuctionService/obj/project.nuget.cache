@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TxolJfUMOUAxwYdo6nFkA3mMTGY/j9nyy4uZrQV2pPdJz53nZzqv8N6Tw/dd+1rzesC8AFA+fy4pkj2ZbLLV/g==",
+  "dgSpecHash": "sdbppb+oUTIyF1U7xv7vfKcTdoE317SL1gl4WY6CH3cifUXtWtAlSRl5zAIfHaeCWNgmktu/MxZtYQbOLtaw1Q==",
   "success": true,
   "projectFilePath": "/Users/sudi/Desktop/Sudi/Codes/Bidtoride/src/AuctionService/AuctionService.csproj",
   "expectedPackageFiles": [
@@ -145,7 +145,10 @@
     "/Users/sudi/.nuget/packages/system.threading.tasks.extensions/4.3.0/system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "/Users/sudi/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/sudi/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/Users/sudi/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
+    "/Users/sudi/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
+    "/Users/sudi/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/sudi/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/sudi/.nuget/packages/microsoft.netcore.app.host.osx-x64/7.0.14/microsoft.netcore.app.host.osx-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }
