@@ -21,3 +21,7 @@ Auction car microservice learning
 7. Submit a pull request: Once you have completed your changes and tested them locally, submit a pull request to the project's repository. Provide a clear and concise description of your changes, including the problem you are addressing and the solution you have implemented. Be open to feedback and iterate on your changes based on the feedback received.
 8. Collaborate and communicate: Engage with the project maintainers and other contributors through the project's communication channels, such as issue trackers, mailing lists, or chat platforms. Seek guidance when needed and offer assistance to others. Collaboration and effective communication are key to successful open-source contributions.
 9. Follow the project's release process: If your pull request is accepted, your changes will be merged into the main codebase. Follow the project's release process to ensure that your changes are included in future releases. This may involve additional steps such as versioning, documentation updates, and release notes.
+
+## Repo Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/67c0eb65841fd6098603b9a741027eda8ca3aca3.svg "Repobeats analytics image")
